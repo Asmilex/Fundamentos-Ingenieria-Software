@@ -110,6 +110,46 @@ Esto hay que hacerlo?
 - **RNF-** El usuario debe estar acorde con los términos de uso y las condiciones de privacidad de las compañías de terceros involucradas en el sistema.
 
 ## Requisitos de información
-
+- **RI-1** Usuarios
+    - DNI
+    - Nombre
+    - Apellidos
+    - Fecha de nacimiento
+    - e-mail
+    - Contraseña
+    - Información de pago
+    - Reservas
+- **RI-2** Empleados
+    - DNI
+    - Nombre
+    - Apellidos
+    - Fecha de nacimiento
+    - e-mail
+    - Contraseña
+    - Fecha inicio de contrato
+    - Fecha fin de contrato
+- **RI-3** Viaje
+    - Código identificador
+    - Destino
+    - Actividades incluidas
+    - Hoteles
+    - Duración del viaje
+    - Transporte ida
+    - Transporte vuelta
+- **RI-4** Hoteles
+    - Identificador de hotel
+    - Precio
+    - Marca
+    - Ciudad
+- **RI-5** Actividades
+    - Identificador de actividad
+    - Precio
+    - Horario
+    - Ciudad
+- **RI-6** Transporte
+    - Identificador de vuelo
+    - Precio
+    - Hora
+    - Equipaje
 
 ## Glosario de términos
