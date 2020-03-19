@@ -54,12 +54,16 @@ Esto hay que hacerlo?
     - **RF-2.1** Gestión de reservas de los clientes
         - **RF-2.1.1** Control, de manera flexible, de los pagos
 
-- **RF-3 Gestión de actividades** 
+- **RF-3 Gestión de actividades** El sistema deberá proporcionar las diferentes actividades a realizar
     - **RF-3.1** Gestión de circuitos turísticos
         - **RF-3.1.1** Selección de excursiones
     - **RF-3.2** Gestión de actividades turísticas
         - **RF-3.2.1** Selección de espectáculos
         - **RF-3.2.2** Selección de reservas o alquileres
+
+- **RF-4 Gestión del trayecto** El sistema deberá proporcionar información acerca del trayecto
+    - **RF-4.1** Selección del medio de transporte
+    - **RF-4.2** Selección del horario de salida y llegada
 
 
 ## Requisitos no funcionales
@@ -110,7 +114,7 @@ Esto hay que hacerlo?
 - **RNF-** El usuario debe estar acorde con los términos de uso y las condiciones de privacidad de las compañías de terceros involucradas en el sistema.
 
 ## Requisitos de información
-- **RI-1** Usuarios
+- **RI-1** Usuarios: Se almacenan los datos personales de cada cliente para poder realizar una reserva de un viaje.
     - DNI
     - Nombre
     - Apellidos
@@ -119,7 +123,7 @@ Esto hay que hacerlo?
     - Contraseña
     - Información de pago
     - Reservas
-- **RI-2** Empleados
+- **RI-2** Empleados: Se guarda un registro de todos los datos de las personas contratadas de la agencia de viajes.
     - DNI
     - Nombre
     - Apellidos
@@ -128,7 +132,7 @@ Esto hay que hacerlo?
     - Contraseña
     - Fecha inicio de contrato
     - Fecha fin de contrato
-- **RI-3** Viaje
+- **RI-3** Viaje: Se almacenan los viajes, incluyendo actividades, transporte y hotel.
     - Código identificador
     - Destino
     - Actividades incluidas
@@ -136,17 +140,18 @@ Esto hay que hacerlo?
     - Duración del viaje
     - Transporte ida
     - Transporte vuelta
-- **RI-4** Hoteles
+- **RI-4** Hoteles: Se guarda la infomración relativa al hotel.
     - Identificador de hotel
     - Precio
     - Marca
     - Ciudad
-- **RI-5** Actividades
+- **RI-5** Actividades: Se tiene un registro de la información de la actividad.
     - Identificador de actividad
     - Precio
+    - Descripción.
     - Horario
     - Ciudad
-- **RI-6** Transporte
+- **RI-6** Transporte: Se almacena la información relativa al transporte.
     - Identificador de vuelo
     - Precio
     - Hora
