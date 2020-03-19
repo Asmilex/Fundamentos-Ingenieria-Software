@@ -54,12 +54,16 @@ Esto hay que hacerlo?
     - **RF-2.1** Gestión de reservas de los clientes
         - **RF-2.1.1** Control, de manera flexible, de los pagos
 
-- **RF-3 Gestión de actividades** 
+- **RF-3 Gestión de actividades** El sistema deberá proporcionar las diferentes actividades a realizar
     - **RF-3.1** Gestión de circuitos turísticos
         - **RF-3.1.1** Selección de excursiones
     - **RF-3.2** Gestión de actividades turísticas
         - **RF-3.2.1** Selección de espectáculos
         - **RF-3.2.2** Selección de reservas o alquileres
+
+- **RF-4 Gestión del trayecto** El sistema deberá proporcionar información acerca del trayecto
+    - **RF-4.1** Selección del medio de transporte
+    - **RF-4.2** Selección del horario de salida y llegada
 
 
 ## Requisitos no funcionales
