@@ -1,5 +1,6 @@
 # Prácticas de Fundamentos de Ingeniería del Sofrware
 
+> Por Ana Buendía, Andrés Millán, Paula Villanueva, Juan Antonio Villegas
 
 ## Descripción y objetivos
 
