@@ -153,3 +153,13 @@ Esto hay que hacerlo?
     - Equipaje
 
 ## Glosario de términos
+
+* **Agencia de Viajes**: Empresa encargada de la organización y oferta de viajes a clientes.
+* **Origen**: Lugar del cual parte el viaje.
+* **Destino**: Lugar al cual llega el viaje y en el que se encuentran los hoteles en los que se alojarán los clientes y en el que se desarrollarán las actividades ofertadas.
+* **Transporte**: Medio por el cual se realiza el trayecto desde el origen al destino o viceversa.
+* **Interfaz de la aplicación**: Forma de presentar nuestra aplicación para que el usuario pueda contemplar todo lo que le ofrece la empresa de una forma clara.
+* **Circuito turístico**: Paseo y visita a distintos monumentos significativos de una ciudad destino dentro de un viaje.
+* **Actividad turistica**: Forma de ocio ofertada a los viajeros durante el viaje. Por ejemplo, espectáculos.
+* **Paleta de comandos**: **Rellena Andrés que lo harás mejor que yo**.
+* **Condiciones de carrera**: Situación a evitar consistente en que dos o más clientes deseen reservar al mismo tiempo algún servicio que solo pueda asignarse a uno de ellos. Por ejemplo, en el caso de que en un mismo vuelo dos usuarios quieran reservar el mismo asiento.
