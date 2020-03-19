@@ -30,8 +30,8 @@ La aplicación está diseñada de forma que los clientes tendrán una interfaz s
 * **Cliente**: Representa un cliente de la empresa, esto es, un usuario que solicita un viaje mediante nuestra aplicación.
 * **Trabajador**: Representa a los trabajadores que manejan y gestionan asuntos relativos a la agencia de viajes, por ejemplo, vuelos, hoteles, actividades,...
 * **Cadena hotelera**: Representante de una cadena de hoteles relacionada con la empresa. Cada cadena tiene una gama de hoteles diferentes.
-* **Empresa aerea de transportes**: Representante de una empresa de viajes en aviones. Cada empresa aerea de transportes a su vez nos ofrece viajes con diferentes origenes, destinos, y horarios.
-* **Empresa terrestre de transportes**: Representante de una empresa de transportes mediante autobús. Al igual que la aerea, ofrece viajes en autobús con distintos origenes, destinos y horarios.
+* **Empresa aérea de transportes**: Representante de una empresa de viajes en aviones. Cada empresa aérea de transportes a su vez nos ofrece viajes con diferentes orígenes, destinos, y horarios.
+* **Empresa terrestre de transportes**: Representante de una empresa de transportes mediante autobús. Al igual que la aérea, ofrece viajes en autobús con distintos orígenes, destinos y horarios.
 * **Coordinadora de actividades**: Empresa que organiza diversos tours y actividades en los diferentes destinos de nuestro viaje.
 * **Jefe de empresa**: Jefes de nuestra empresa que coordinan la labor de nuestros trabajadores. 
 * Añadir o quitar gente
@@ -42,6 +42,24 @@ Esto hay que hacerlo?
 
 
 ## Requisitos funcionales
+
+- **RF-1 Gestión de clientes** El sistema deberá proporcionar herramientas a los clientes para poder reservar un hotel en un destino deseado
+    - **RF-1.1** Solicitud de reservas
+        - **RF-1.1.1** Selección del destino tanto nacional como en el extranjero
+        - **RF-1.1.2** Selección del alojamiento en diversos hoteles de distinta categoría
+        - **RF-1.1.3** Selección de actividades complementarias
+    - **RF-1.2** Realización de envíos de publicidad personalizada
+    
+- **RF-2 Gestión de hoteles** El sistema deberá proporcionar información acerca de los diversos hoteles de distinta categoría
+    - **RF-2.1** Gestión de reservas de los clientes
+        - **RF-2.1.1** Control, de manera flexible, de los pagos
+
+- **RF-3 Gestión de actividades** 
+    - **RF-3.1** Gestión de circuitos turísticos
+        - **RF-3.1.1** Selección de excursiones
+    - **RF-3.2** Gestión de actividades turísticas
+        - **RF-3.2.1** Selección de espectáculos
+        - **RF-3.2.2** Selección de reservas o alquileres
 
 
 ## Requisitos no funcionales
