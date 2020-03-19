@@ -54,12 +54,30 @@ A continuación se exponen los objetivos que se pretenden alcanzar:
 - **RNF-** Se habilitará un servicio de atención telefónica para resolver las dudas de las empresas.
 
 ### Restricción de la implementación
+
+- **RNF-** Se utilizará el framework Vue.js para facilitar el desarrollo multiplataforma.
+- **RNF-** Las APIs proporcionadas por los servicios de terceros deben ser compatibles con nuestro sistema.
+
 ### Restricciones de diseño
+
+
 ### Requisitos de logística
+
+- **RNF-** Los usuarios deben proporcionar su nombre, email y contraseña para registrarse.
+- **RNF-** Los clientes deben estar registrados para contratar los servicios
+
 ### Requisitos físicos
+
+- **RNF-** Existen diferentes servidores que mantengan la base de datos actualizada por si fallara uno.
+- **RNF-** La aplicación será soportada por cualquier sistema que permita usar una PWA.
+
 ### Requisitos legales
+
+- **RNF-** Todos los datos de usuario que permitan identificar a los usuarios serán privados y no se venderán.
+- **RNF-** Emails y contraseñas serán cifradas.
+- **RNF-** El usuario debe estar acorde con los términos de uso y las condiciones de privacidad de las compañías de terceros involucradas en el sistema.
 
 ## Requisitos de información
 
 
-## Glosario de térimnos
+## Glosario de términos
