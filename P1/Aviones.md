@@ -46,7 +46,6 @@ A continuación se exponen los objetivos que se pretenden alcanzar:
 ### Rendimiento
 
 - **RNF-** Las operaciones de contratación de servicios deben hacerse lo más rápido posible para evitar interbloqueos.
-- **RNF-** Se garantizará que las acciones hechas en local se reflejarán lo más rápido posible para los otros usuarios.
 
 ### Soporte
 
