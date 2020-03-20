@@ -7,9 +7,9 @@
 
 **Dominio del problema**: software de gestión de viajes
 
-El software Control Operacional de Vuelos Inmersivo Didáctico (COVID) (WIP) permite a las agencias de viajes controlar la gestión de los destinos posibles, así como la reserva de hoteles y la contratación de actividades. Está diseñado para ofrecer una experiencia de usuario muy amigable, de forma que se requiere de poca formación para utilizarlo.
+El software *COntrol de VIajes Dual* (CoViD) permite a las agencias de viajes controlar la reserva de viajes, hoteles y actividades de sus clientes. Está diseñado para ofrecer una experiencia de usuario muy amigable, de forma que se requiere de poca formación para utilizarlo. Además, proporciona una interfaz básica en la que los clientes pueden consultar los servicios disponibles.
 
-El objetivo de *Nombresuperchuloaqui* es, en esencia, ofrecer distintos destinos para que las personas puedan disfrutar de un viaje con alojamiento y actividades de la forma más cómoda posible.
+El objetivo de *CoViD* es, en esencia, ofrecer distintos destinos para que las personas puedan disfrutar de un viaje con alojamiento y actividades de la forma más cómoda posible.
 A continuación se exponen los objetivos que se pretenden alcanzar:
 - Crear una interfaz cómoda y simple para que los clientes realicen las reservas.
 - Control de los pagos asociados a una reserva y el posterior viaje.
@@ -23,22 +23,19 @@ A continuación se exponen los objetivos que se pretenden alcanzar:
 
 ### Entorno de usuario
 
-La aplicación está diseñada de forma que los clientes tendrán una interfaz sencilla de entender y manejar, ya que no podemos asumir nada con respecto a la experiencia de estos con aplicaciones informáticas. Sin embargo los trabajadores de la empresa serán formados de cara a saber manejar el sistema desde una perspectiva mas compleja.
+La aplicación está diseñada de forma que todos los usuarios dispondrán de una interfaz sencilla de entender y manejar, ya que no podemos asumir nada con respecto a la experiencia de estos con aplicaciones informáticas. No obstante, se ofrecerá una documentación potente y sencilla de entender para que los empleados sean capaces de exprimir al máximo el potencial del software.
 
 ### Resumen de los implicados
 
 * **Cliente**: representa un cliente de la empresa, esto es, un usuario que solicita un viaje mediante nuestra aplicación.
-* **Trabajador**: representa a los trabajadores que manejan y gestionan asuntos relativos a la agencia de viajes, por ejemplo, vuelos, hoteles, actividades,...
+* **Empleado**: representa a los trabajadores que manejan y gestionan asuntos relativos a la agencia de viajes, por ejemplo, vuelos, hoteles, actividades,...
 * **Cadena hotelera**: representante de una cadena de hoteles relacionada con la empresa. Cada cadena tiene una gama de hoteles diferentes.
-* **Empresa aérea de transportes**: representante de una empresa de viajes en aviones. Cada empresa aérea de transportes a su vez nos ofrece viajes con diferentes orígenes, destinos, y horarios.
-* **Empresa terrestre de transportes**: representante de una empresa de transportes mediante autobús. Al igual que la aérea, ofrece viajes en autobús con distintos orígenes, destinos y horarios.
+* **Compañía de vuelos**: representante de una empresa de viajes en aviones. Cada empresa aérea de transportes a su vez nos ofrece viajes con diferentes orígenes, destinos, y horarios.
+* **Compañía de transportes por carretera**: representante de una empresa de transportes mediante autobús. Al igual que la de vuelos, ofrece viajes en con distintos orígenes, destinos y horarios.
 * **Coordinadora de actividades**: empresa que organiza diversos tours y actividades en los diferentes destinos de nuestro viaje.
-* **Jefe de empresa**: jefes de nuestra empresa que coordinan la labor de nuestros trabajadores. 
-* Añadir o quitar gente
+* **Jefe de empresa**: jefes de nuestra empresa que coordinan la labor de nuestros trabajadores.
 
 ### Perfiles
-
-Esto hay que hacerlo?
 
 
 ## Requisitos funcionales
@@ -49,7 +46,7 @@ Esto hay que hacerlo?
         - **RF-1.1.2** Selección del alojamiento en diversos hoteles de distinta categoría
         - **RF-1.1.3** Selección de actividades complementarias
     - **RF-1.2** Realización de envíos de publicidad personalizada
-    
+
 - **RF-2 Gestión de hoteles** El sistema deberá proporcionar información acerca de los diversos hoteles de distinta categoría
     - **RF-2.1** Gestión de reservas de los clientes
         - **RF-2.1.1** Control, de manera flexible, de los pagos
@@ -71,9 +68,9 @@ Esto hay que hacerlo?
 ### Usabilidad
 
 - **RNF-1** Se deberá proporcionar un menú intuitivo para facilitar al empleado la gestión.
-- **RNF-** Se proporcionará una paleta de comandos que permita al usuario usar las funciones de forma rápida.
+- **RNF-1** Se deberá proporcionar una interfaz sencilla para que los clientes contraten servicios.
+- **RNF-** Se proporcionará una paleta de comandos que permita al empleado usar las funciones de forma rápida.
 - **RNF-** Se deberá proporcionar un mapa que permita ver hoteles y rutas de transportes.
-- **RNF-** Se mantendrá actualizada la base de datos online en todo momento para evitar solapaciones de servicios.
 
 ### Fiabilidad
 
@@ -167,5 +164,5 @@ Esto hay que hacerlo?
 * **Interfaz de la aplicación**: forma de presentar nuestra aplicación para que el usuario pueda contemplar todo lo que le ofrece la empresa de una forma clara.
 * **Circuito turístico**: paseo y visita a distintos monumentos significativos de una ciudad destino dentro de un viaje.
 * **Actividad turística**: forma de ocio ofertada a los viajeros durante el viaje. Por ejemplo, espectáculos.
-* **Paleta de comandos**: **Rellena Andrés que lo harás mejor que yo**.
+* **Paleta de comandos**: una terminal interactiva con autocompletado que permite ejecutar casi cualquier comando disponible en la Interfaz Gráfica. Útil para usuarios avanzados.
 * **Condiciones de carrera**: Situación a evitar consistente en que dos o más clientes deseen reservar al mismo tiempo algún servicio que solo pueda asignarse a uno de ellos. Por ejemplo, en el caso de que en un mismo vuelo dos usuarios quieran reservar el mismo asiento.
