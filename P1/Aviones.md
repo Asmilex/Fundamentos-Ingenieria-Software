@@ -168,3 +168,4 @@ Esto hay que hacerlo?
 * **Actividad turistica**: Forma de ocio ofertada a los viajeros durante el viaje. Por ejemplo, espectáculos.
 * **Paleta de comandos**: **Rellena Andrés que lo harás mejor que yo**.
 * **Condiciones de carrera**: Situación a evitar consistente en que dos o más clientes deseen reservar al mismo tiempo algún servicio que solo pueda asignarse a uno de ellos. Por ejemplo, en el caso de que en un mismo vuelo dos usuarios quieran reservar el mismo asiento.
+
