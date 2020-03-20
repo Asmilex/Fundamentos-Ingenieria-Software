@@ -1,6 +1,8 @@
-# Prácticas Ingeniería del Software
-
-> Por Ana Buendía, Andrés Millán, Paula Villanueva, Juan Antonio Villegas
+---
+title: Práctica 1. INGENIERÍA DE REQUISITOS. Lista inicial de requisitos
+author: Ana Buendía, Andrés Millán, Paula Villanueva, Juan Antonio Villegas
+date: \today
+---
 
 
 ## Descripción y objetivos
@@ -10,7 +12,9 @@
 El software *Control de Viajes Dual* permite a las agencias de viajes controlar la reserva de viajes, hoteles y actividades de sus clientes. Está diseñado para ofrecer una experiencia de usuario muy amigable, de forma que se requiere de poca formación para utilizarlo. Además, proporciona una interfaz básica en la que los clientes pueden consultar los servicios disponibles.
 
 El objetivo de *Control de Viajes Dual* es, en esencia, ofrecer distintos destinos para que las personas puedan disfrutar de un viaje con alojamiento y actividades de la forma más cómoda posible.
+
 A continuación se exponen los objetivos que se pretenden alcanzar:
+
 - Crear una interfaz cómoda y simple para que los clientes realicen las reservas.
 - Control de los pagos asociados a una reserva y el posterior viaje.
 - Realizar envíos de publicidad personalizada a los clientes.
@@ -34,9 +38,6 @@ La aplicación está diseñada de forma que todos los usuarios dispondrán de un
 * **Compañía de transportes por carretera**: representante de una empresa de transportes mediante autobús y tren. Al igual que la de vuelos, ofrece viajes en con distintos orígenes, destinos y horarios.
 * **Coordinadora de actividades**: empresa que organiza diversos tours y actividades en los diferentes destinos de nuestro viaje.
 * **Jefe de empresa**: jefes de nuestra empresa que coordinan la labor de nuestros trabajadores.
-
-### Perfiles
-
 
 ## Requisitos funcionales
 
@@ -92,48 +93,48 @@ La aplicación está diseñada de forma que todos los usuarios dispondrán de un
 ### Usabilidad
 
 - **RNF-1** Se deberá proporcionar un menú intuitivo para facilitar al empleado la gestión.
-- **RNF-1** Se deberá proporcionar una interfaz sencilla para que los clientes contraten servicios.
-- **RNF-** Se proporcionará una paleta de comandos que permita al empleado usar las funciones de forma rápida.
-- **RNF-** Se deberá proporcionar un mapa que permita ver hoteles y rutas de transportes.
+- **RNF-2** Se deberá proporcionar una interfaz sencilla para que los clientes contraten servicios.
+- **RNF-3** Se proporcionará una paleta de comandos que permita al empleado usar las funciones de forma rápida.
+- **RNF-4** Se deberá proporcionar un mapa que permita ver hoteles y rutas de transportes.
 
 ### Fiabilidad
 
-- **RNF-** Se evitarán condiciones de carrera para garantizar la correcta contratación de los servicios.
-- **RNF-** Se mantendrán actualizados los servicios prestados por las compañías de terceros, para asegurar el correcto funcionamiento del sistema.
+- **RNF-5** Se evitarán condiciones de carrera para garantizar la correcta contratación de los servicios.
+- **RNF-6** Se mantendrán actualizados los servicios prestados por las compañías de terceros, para asegurar el correcto funcionamiento del sistema.
 
 ### Rendimiento
 
-- **RNF-** Las operaciones de contratación de servicios deben hacerse lo más rápido posible para evitar interbloqueos.
+- **RNF-7** Las operaciones de contratación de servicios deben hacerse lo más rápido posible para evitar interbloqueos.
 
 ### Soporte
 
-- **RNF-** Se creará una sección de preguntas y respuestas habituales para los usuarios.
-- **RNF-** Se habilitará un servicio de atención telefónica para resolver las dudas de las empresas.
+- **RNF-8** Se creará una sección de preguntas y respuestas habituales para los usuarios.
+- **RNF-9** Se habilitará un servicio de atención telefónica para resolver las dudas de las empresas.
 
 ### Restricción de la implementación
 
-- **RNF-** Se utilizará el framework `Vue.js` para facilitar el desarrollo multiplataforma.
-- **RNF-** Las APIs proporcionadas por los servicios de terceros deben ser compatibles con nuestro sistema.
+- **RNF-10** Se utilizará el framework `Vue.js` para facilitar el desarrollo multiplataforma.
+- **RNF-11** Las APIs proporcionadas por los servicios de terceros deben ser compatibles con nuestro sistema.
 
 
 ### Requisitos de logística
 
-- **RNF-** Los usuarios deben proporcionar su nombre, email y contraseña para registrarse.
-- **RNF-** Los clientes deben estar registrados para contratar los servicios
+- **RNF-12** Los usuarios deben proporcionar su nombre, email y contraseña para registrarse.
+- **RNF-13** Los clientes deben estar registrados para contratar los servicios
 
 ### Requisitos físicos
 
-- **RNF-** Existen diferentes servidores que mantengan la base de datos actualizada por si fallara uno.
-- **RNF-** La aplicación será soportada por cualquier sistema que permita usar una PWA.
+- **RNF-14** Existen diferentes servidores que mantengan la base de datos actualizada por si fallara uno.
+- **RNF-15** La aplicación será soportada por cualquier sistema que permita usar una PWA.
 
 ### Requisitos legales
 
-- **RNF-** Todos los datos de usuario que permitan identificarlos serán privados y no se venderán a terceros.
-- **RNF-** Emails y contraseñas serán cifradas.
-- **RNF-** El usuario debe estar acorde con los términos de uso y las condiciones de privacidad de las compañías de terceros involucradas en el sistema.
+- **RNF-16** Todos los datos de usuario que permitan identificarlos serán privados y no se venderán a terceros.
+- **RNF-17** Emails y contraseñas serán cifradas.
+- **RNF-18** El usuario debe estar acorde con los términos de uso y las condiciones de privacidad de las compañías de terceros involucradas en el sistema.
 
 ## Requisitos de información
-- **RI-1** Usuarios: Se almacenan los datos personales de cada cliente para poder realizar una reserva de un viaje.
+- **RI-1 Usuarios** Se almacenan los datos personales de cada cliente para poder realizar una reserva de un viaje.
     - DNI
     - Nombre
     - Apellidos
@@ -142,7 +143,7 @@ La aplicación está diseñada de forma que todos los usuarios dispondrán de un
     - Contraseña
     - Información de pago
     - Reservas
-- **RI-2** Empleados: Se guarda un registro de todos los datos de las personas contratadas de la agencia de viajes.
+- **RI-2 Empleados** Se guarda un registro de todos los datos de las personas contratadas de la agencia de viajes.
     - DNI
     - Nombre
     - Apellidos
@@ -151,7 +152,7 @@ La aplicación está diseñada de forma que todos los usuarios dispondrán de un
     - Contraseña
     - Fecha inicio de contrato
     - Fecha fin de contrato
-- **RI-3** Viaje: Se almacenan los viajes, incluyendo actividades, transporte y hotel.
+- **RI-3 Viaje** Se almacenan los viajes, incluyendo actividades, transporte y hotel.
     - Código identificador
     - Destino
     - Actividades incluidas
@@ -159,18 +160,18 @@ La aplicación está diseñada de forma que todos los usuarios dispondrán de un
     - Duración del viaje
     - Transporte ida
     - Transporte vuelta
-- **RI-4** Hoteles: Se guarda la información relativa al hotel.
+- **RI-4 Hoteles** Se guarda la información relativa al hotel.
     - Identificador de hotel
     - Precio
     - Marca
     - Ciudad
-- **RI-5** Actividades: Se tiene un registro de la información de la actividad.
+- **RI-5 Actividades** Se tiene un registro de la información de la actividad.
     - Identificador de actividad
     - Precio
-    - Descripción.
+    - Descripción
     - Horario
     - Ciudad
-- **RI-6** Transporte: Se almacena la información relativa al transporte.
+- **RI-6 Transporte** Se almacena la información relativa al transporte.
     - Identificador de viaje
     - Vehículo de transporte
     - Precio
