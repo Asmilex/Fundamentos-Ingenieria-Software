@@ -5,7 +5,7 @@
 
 ## Descripción y objetivos
 
-**Dominio del problema**: Web de gestión de viajes
+**Dominio del problema**: software de gestión de viajes
 
 El software Control Operacional de Vuelos Inmersivo Didáctico (COVID) (WIP) permite a las agencias de viajes controlar la gestión de los destinos posibles, así como la reserva de hoteles y la contratación de actividades. Está diseñado para ofrecer una experiencia de usuario muy amigable, de forma que se requiere de poca formación para utilizarlo.
 
