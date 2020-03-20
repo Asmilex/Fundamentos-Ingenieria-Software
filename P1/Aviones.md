@@ -5,9 +5,9 @@
 
 ## Descripción y objetivos
 
-**Dominio del problema**: Web de gestión de viajes
+**Dominio del problema**: software de gestión de viajes
 
-El software Control Operacional de Vuelos Inmersivo Didáctico (COVID) (WIP) permite a las agencias de viajes controlar la gestión de los destinos posibles, así como la reserva de hoteles y la contratación de actividades. Está diseñado para ofrecer una experiencia de usuario muy amigable, de forma que se requiere de poca formación para utlizarlo.
+El software Control Operacional de Vuelos Inmersivo Didáctico (COVID) (WIP) permite a las agencias de viajes controlar la gestión de los destinos posibles, así como la reserva de hoteles y la contratación de actividades. Está diseñado para ofrecer una experiencia de usuario muy amigable, de forma que se requiere de poca formación para utilizarlo.
 
 El objetivo de *Nombresuperchuloaqui* es, en esencia, ofrecer distintos destinos para que las personas puedan disfrutar de un viaje con alojamiento y actividades de la forma más cómoda posible.
 A continuación se exponen los objetivos que se pretenden alcanzar:
@@ -27,13 +27,13 @@ La aplicación está diseñada de forma que los clientes tendrán una interfaz s
 
 ### Resumen de los implicados
 
-* **Cliente**: Representa un cliente de la empresa, esto es, un usuario que solicita un viaje mediante nuestra aplicación.
-* **Trabajador**: Representa a los trabajadores que manejan y gestionan asuntos relativos a la agencia de viajes, por ejemplo, vuelos, hoteles, actividades,...
-* **Cadena hotelera**: Representante de una cadena de hoteles relacionada con la empresa. Cada cadena tiene una gama de hoteles diferentes.
-* **Empresa aérea de transportes**: Representante de una empresa de viajes en aviones. Cada empresa aérea de transportes a su vez nos ofrece viajes con diferentes orígenes, destinos, y horarios.
-* **Empresa terrestre de transportes**: Representante de una empresa de transportes mediante autobús. Al igual que la aérea, ofrece viajes en autobús con distintos orígenes, destinos y horarios.
-* **Coordinadora de actividades**: Empresa que organiza diversos tours y actividades en los diferentes destinos de nuestro viaje.
-* **Jefe de empresa**: Jefes de nuestra empresa que coordinan la labor de nuestros trabajadores. 
+* **Cliente**: representa un cliente de la empresa, esto es, un usuario que solicita un viaje mediante nuestra aplicación.
+* **Trabajador**: representa a los trabajadores que manejan y gestionan asuntos relativos a la agencia de viajes, por ejemplo, vuelos, hoteles, actividades,...
+* **Cadena hotelera**: representante de una cadena de hoteles relacionada con la empresa. Cada cadena tiene una gama de hoteles diferentes.
+* **Empresa aérea de transportes**: representante de una empresa de viajes en aviones. Cada empresa aérea de transportes a su vez nos ofrece viajes con diferentes orígenes, destinos, y horarios.
+* **Empresa terrestre de transportes**: representante de una empresa de transportes mediante autobús. Al igual que la aérea, ofrece viajes en autobús con distintos orígenes, destinos y horarios.
+* **Coordinadora de actividades**: empresa que organiza diversos tours y actividades en los diferentes destinos de nuestro viaje.
+* **Jefe de empresa**: jefes de nuestra empresa que coordinan la labor de nuestros trabajadores. 
 * Añadir o quitar gente
 
 ### Perfiles
@@ -91,7 +91,7 @@ Esto hay que hacerlo?
 
 ### Restricción de la implementación
 
-- **RNF-** Se utilizará el framework Vue.js para facilitar el desarrollo multiplataforma.
+- **RNF-** Se utilizará el framework `Vue.js` para facilitar el desarrollo multiplataforma.
 - **RNF-** Las APIs proporcionadas por los servicios de terceros deben ser compatibles con nuestro sistema.
 
 ### Restricciones de diseño
@@ -140,7 +140,7 @@ Esto hay que hacerlo?
     - Duración del viaje
     - Transporte ida
     - Transporte vuelta
-- **RI-4** Hoteles: Se guarda la infomración relativa al hotel.
+- **RI-4** Hoteles: Se guarda la información relativa al hotel.
     - Identificador de hotel
     - Precio
     - Marca
@@ -159,13 +159,12 @@ Esto hay que hacerlo?
 
 ## Glosario de términos
 
-* **Agencia de Viajes**: Empresa encargada de la organización y oferta de viajes a clientes.
-* **Origen**: Lugar del cual parte el viaje.
-* **Destino**: Lugar al cual llega el viaje y en el que se encuentran los hoteles en los que se alojarán los clientes y en el que se desarrollarán las actividades ofertadas.
-* **Transporte**: Medio por el cual se realiza el trayecto desde el origen al destino o viceversa.
-* **Interfaz de la aplicación**: Forma de presentar nuestra aplicación para que el usuario pueda contemplar todo lo que le ofrece la empresa de una forma clara.
-* **Circuito turístico**: Paseo y visita a distintos monumentos significativos de una ciudad destino dentro de un viaje.
-* **Actividad turistica**: Forma de ocio ofertada a los viajeros durante el viaje. Por ejemplo, espectáculos.
+* **Agencia de Viajes**: empresa encargada de la organización y oferta de viajes a clientes.
+* **Origen**: lugar del cual parte el viaje.
+* **Destino**: lugar al cual llega el viaje y en el que se encuentran los hoteles en los que se alojarán los clientes y en el que se desarrollarán las actividades ofertadas.
+* **Transporte**: medio por el cual se realiza el trayecto desde el origen al destino o viceversa.
+* **Interfaz de la aplicación**: forma de presentar nuestra aplicación para que el usuario pueda contemplar todo lo que le ofrece la empresa de una forma clara.
+* **Circuito turístico**: paseo y visita a distintos monumentos significativos de una ciudad destino dentro de un viaje.
+* **Actividad turística**: forma de ocio ofertada a los viajeros durante el viaje. Por ejemplo, espectáculos.
 * **Paleta de comandos**: **Rellena Andrés que lo harás mejor que yo**.
 * **Condiciones de carrera**: Situación a evitar consistente en que dos o más clientes deseen reservar al mismo tiempo algún servicio que solo pueda asignarse a uno de ellos. Por ejemplo, en el caso de que en un mismo vuelo dos usuarios quieran reservar el mismo asiento.
-
