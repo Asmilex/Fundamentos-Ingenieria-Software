@@ -85,7 +85,7 @@ La aplicación está diseñada de forma que todos los usuarios dispondrán de un
         - **RF-4.7.3** Actualizar el horario de llegada
     - **RF-4.8** Actualizar las características de un medio de transporte
         - **RF-4.8.1** Actualizar el número de plazas
-    - **RF-4.3** Selección del tipo de viaje (estándar, turista, preferente, VIP, ...)
+    - **RF-4.9** Selección del tipo de viaje (estándar, turista, preferente, VIP, ...)
 
 ## Requisitos no funcionales
 
