@@ -63,7 +63,7 @@ La aplicación está diseñada de forma que todos los usuarios dispondrán de un
         - **RF-3.1.1** Selección de excursiones
     - **RF-3.2** Gestión de actividades turísticas
         - **RF-3.2.1** Selección de espectáculos
-        - **RF-3.2.2** Selección de reservas o alquileres
+        - **RF-3.2.2** Selección de reservas o alquileres de vehículos
     - **RF-3.3** Incorporar nuevas actividades
     - **RF-3.4** Eliminar actividades
     - **RF-3.5** Actualizar las características de las actividades turísticas existentes
