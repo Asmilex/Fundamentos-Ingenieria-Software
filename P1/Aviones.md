@@ -152,7 +152,8 @@ Esto hay que hacerlo?
     - Horario
     - Ciudad
 - **RI-6** Transporte: Se almacena la información relativa al transporte.
-    - Identificador de vuelo
+    - Identificador de viaje
+    - Vehículo de transporte
     - Precio
     - Hora
     - Equipaje
