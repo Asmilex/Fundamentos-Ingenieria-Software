@@ -46,7 +46,7 @@ La aplicación está diseñada de forma que todos los usuarios dispondrán de un
         - **RF-1.1.2** Selección del alojamiento en diversos hoteles de distinta categoría
         - **RF-1.1.3** Selección de actividades complementarias
     - **RF-1.2** Realización de envíos de publicidad personalizada
-    
+
 - **RF-2 Gestión de hoteles** El sistema deberá proporcionar información acerca de los diversos hoteles de distinta categoría
     - **RF-2.1** Gestión de reservas de los clientes
         - **RF-2.1.1** Control, de manera flexible, de los pagos
@@ -130,7 +130,7 @@ La aplicación está diseñada de forma que todos los usuarios dispondrán de un
 
 ### Requisitos legales
 
-- **RNF-** Todos los datos de usuario que permitan identificar a los usuarios serán privados y no se venderán.
+- **RNF-** Todos los datos de usuario que permitan identificarlos serán privados y no se venderán a terceros.
 - **RNF-** Emails y contraseñas serán cifradas.
 - **RNF-** El usuario debe estar acorde con los términos de uso y las condiciones de privacidad de las compañías de terceros involucradas en el sistema.
 
@@ -189,3 +189,4 @@ La aplicación está diseñada de forma que todos los usuarios dispondrán de un
 * **Actividad turística**: forma de ocio ofertada a los viajeros durante el viaje. Por ejemplo, espectáculos.
 * **Paleta de comandos**: una terminal interactiva con autocompletado que permite ejecutar casi cualquier comando disponible en la Interfaz Gráfica. Útil para usuarios avanzados.
 * **Condiciones de carrera**: Situación a evitar consistente en que dos o más clientes deseen reservar al mismo tiempo algún servicio que solo pueda asignarse a uno de ellos. Por ejemplo, en el caso de que en un mismo vuelo dos usuarios quieran reservar el mismo asiento.
+* **PWA**: Progressive Web App.
