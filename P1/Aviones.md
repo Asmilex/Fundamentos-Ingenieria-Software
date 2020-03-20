@@ -31,7 +31,7 @@ La aplicación está diseñada de forma que todos los usuarios dispondrán de un
 * **Empleado**: representa a los trabajadores que manejan y gestionan asuntos relativos a la agencia de viajes, por ejemplo, vuelos, hoteles, actividades,...
 * **Cadena hotelera**: representante de una cadena de hoteles relacionada con la empresa. Cada cadena tiene una gama de hoteles diferentes.
 * **Compañía de vuelos**: representante de una empresa de viajes en aviones. Cada empresa aérea de transportes a su vez nos ofrece viajes con diferentes orígenes, destinos, y horarios.
-* **Compañía de transportes por carretera**: representante de una empresa de transportes mediante autobús. Al igual que la de vuelos, ofrece viajes en con distintos orígenes, destinos y horarios.
+* **Compañía de transportes por carretera**: representante de una empresa de transportes mediante autobús y tren. Al igual que la de vuelos, ofrece viajes en con distintos orígenes, destinos y horarios.
 * **Coordinadora de actividades**: empresa que organiza diversos tours y actividades en los diferentes destinos de nuestro viaje.
 * **Jefe de empresa**: jefes de nuestra empresa que coordinan la labor de nuestros trabajadores.
 
@@ -61,6 +61,7 @@ La aplicación está diseñada de forma que todos los usuarios dispondrán de un
 - **RF-4 Gestión del trayecto** El sistema deberá proporcionar información acerca del trayecto
     - **RF-4.1** Selección del medio de transporte
     - **RF-4.2** Selección del horario de salida y llegada
+    - **RF-4.3** Selección del tipo de viaje (estándar, turista, preferente, VIP, ...)
 
 
 ## Requisitos no funcionales
@@ -90,8 +91,6 @@ La aplicación está diseñada de forma que todos los usuarios dispondrán de un
 
 - **RNF-** Se utilizará el framework `Vue.js` para facilitar el desarrollo multiplataforma.
 - **RNF-** Las APIs proporcionadas por los servicios de terceros deben ser compatibles con nuestro sistema.
-
-### Restricciones de diseño
 
 
 ### Requisitos de logística
