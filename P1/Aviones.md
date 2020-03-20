@@ -7,9 +7,9 @@
 
 **Dominio del problema**: software de gestión de viajes
 
-El software *COntrol de VIajes Dual* (CoViD) permite a las agencias de viajes controlar la reserva de viajes, hoteles y actividades de sus clientes. Está diseñado para ofrecer una experiencia de usuario muy amigable, de forma que se requiere de poca formación para utilizarlo. Además, proporciona una interfaz básica en la que los clientes pueden consultar los servicios disponibles.
+El software *Control de Viajes Dual* permite a las agencias de viajes controlar la reserva de viajes, hoteles y actividades de sus clientes. Está diseñado para ofrecer una experiencia de usuario muy amigable, de forma que se requiere de poca formación para utilizarlo. Además, proporciona una interfaz básica en la que los clientes pueden consultar los servicios disponibles.
 
-El objetivo de *CoViD* es, en esencia, ofrecer distintos destinos para que las personas puedan disfrutar de un viaje con alojamiento y actividades de la forma más cómoda posible.
+El objetivo de *Control de Viajes Dual* es, en esencia, ofrecer distintos destinos para que las personas puedan disfrutar de un viaje con alojamiento y actividades de la forma más cómoda posible.
 A continuación se exponen los objetivos que se pretenden alcanzar:
 - Crear una interfaz cómoda y simple para que los clientes realicen las reservas.
 - Control de los pagos asociados a una reserva y el posterior viaje.
