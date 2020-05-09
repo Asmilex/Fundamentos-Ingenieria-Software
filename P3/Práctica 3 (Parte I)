@@ -1,0 +1,44 @@
+# Práctica 3 (Parte I): Análisis y especificación de requisitos
+
+## Modelo Conceptual
+
+
+
+
+
+
+
+## Diagramas de Secuencia del Sistema
+
+### Actividades Turísticas
+
+![](Fotos/ActividadesTuristicas.jpg)
+
+### Circuitos Turísticos
+
+![](Fotos/CircuitosTuristicos.jpg)
+
+### Clientes
+
+![](Fotos/clientes.png)
+
+### Control Agentes
+
+![](Fotos/Control_agentes.png)
+
+### Gestión Clientes Registrados
+
+![](Fotos/Gestion_clientes_registrados.png)
+
+### Pagos
+
+![](Fotos/Pagos.jpg)
+
+### Publicidad
+
+![](Fotos/Publicidad.jpg)
+
+### Reservas
+
+![](Fotos/reservas.png)
+
