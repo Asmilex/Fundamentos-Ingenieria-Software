@@ -1,9 +1,18 @@
 # Práctica 3 (Parte I): Análisis y especificación de requisitos
 
+>Ana Buendia Ruiz-Azuaga
+>
+>Andrés Millán Muñoz
+>
+>Paula Villanueva Núñez
+>
+>Juan Antonio Villegas Recio
+
 ## Modelo Conceptual
 
 ![](Fotos/UML.png)
 
+<div style="page-break-after: always;"></div>
 ## Diagramas de Secuencia del Sistema
 
 ### Actividades Turísticas
@@ -13,7 +22,7 @@
 ### Circuitos Turísticos
 
 ![](Fotos/CircuitosTuristicos.jpg)
-
+<div style="page-break-after: always;"></div>
 ### Clientes
 
 ![](Fotos/clientes.png)
@@ -21,7 +30,7 @@
 ### Control Agentes
 
 ![](Fotos/Control_agentes.png)
-
+<div style="page-break-after: always;"></div>
 ### Gestión Clientes Registrados
 
 ![](Fotos/Gestion_clientes_registrados.png)
@@ -29,7 +38,7 @@
 ### Pagos
 
 ![](Fotos/Pagos.jpg)
-
+<div style="page-break-after: always;"></div>
 ### Publicidad
 
 ![](Fotos/Publicidad.jpg)
