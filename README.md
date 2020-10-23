@@ -1,1 +1,1 @@
-# Prácticas de Fundamentos de Ingeniería del Sofrware
+# Prácticas de Fundamentos de Ingeniería del Software
